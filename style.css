@@ -1,0 +1,191 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+
+    background-image: url(images/backgroundimg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    border: 0.5vh solid rgba(255, 255, 255, 0.475);
+    border-radius: 2rex;
+    box-shadow: 0 4px 20px black;
+}
+nav>ul>li>a{
+    font-size: larger;
+}
+main{
+    background-color: white;
+    box-shadow: 0 4px 20px black;
+    border-radius: 4rex;
+    width: 55em;
+    margin-left: auto;
+    margin-right: auto;   
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+}
+main>ul>li{
+    margin-top: 1.5em;
+    list-style: none
+}
+main>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ 
+footer{
+    background-color: rgb(255, 255, 255);
+    border: 0.5vh solid rgba(255, 255, 255, 0.475);
+    border-radius: 2rex;
+    box-shadow: 0 4px 20px black;
+}
+footer>h3{
+    margin-left: 5em;
+    margin-right: 5em;
+    font-family: serif;
+    font-size: 17;
+    font-weight: normal;
+}
+footer>p{
+    margin-left: 5em;
+    margin-right: 5em;
+    font-family: serif;
+    font-size: 17;
+    font-weight: normal;
+}
+
+header>nav>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    list-style-type: none;
+}
+
+header>nav>ul>li{
+    margin-right: 7%;
+}
+
+
+nav img{
+    width: 2em;
+}
+
+
+nav li:nth-of-type(1) img {
+    width: 5em
+}
+
+main>ul>li>h1{
+    padding: 1em;
+    text-align: center;
+    border-radius: 2rex;
+    border-radius: 5%;
+    font-family: Courier New, monospace;
+    font-weight: lighter;
+    font-size: xx-large;
+}
+main>h1{
+    padding: 1em;
+    text-align: center;
+    border-radius: 2rex;
+    border-radius: 5%;
+    font-family: Courier New, monospace;
+    font-weight: lighter;
+    font-size: xx-large;
+}
+main>ul>li>h2{
+    margin-left: 4em;
+    margin-right: 4em;
+    font-family: fantasy;
+    font-size: 22;
+    font-weight: normal;
+    font-stretch: extra-condensed;
+    text-decoration: underline;
+}
+main>h2{
+    margin-left: 4em;
+    margin-right: 4em;
+    font-family: fantasy;
+    font-size: 22;
+    font-weight: normal;
+    font-stretch: extra-condensed;
+    text-decoration: underline;
+}
+main>ul>li>h3{
+    margin-left: 5em;
+    margin-right: 5em;
+    font-family: serif;
+    font-size: 17;
+    font-weight: normal;
+}
+main>h3{
+    margin-left: 5em;
+    margin-right: 5em;
+    font-family: serif;
+    font-size: 17;
+    font-weight: normal;
+}
+main>ul>li>p{
+        margin-left: 6em;
+        margin-right: 6em;
+        font-family: serif;
+        font-size: 17;
+        font-weight: normal;
+
+    
+}
+main>p{
+    margin-left: 6em;
+    margin-right: 6em;
+    font-family: serif;
+    font-size: 17;
+    font-weight: normal;
+}
+
+main>ul>li>img{
+    transition: all 0.5s ease;
+    border-radius: 5%;
+    box-shadow: 0 3px 8px black;
+    margin-left: 5em;
+    transition: all 2s ease;
+    padding: 0;
+    width: 60%
+}
+    
+div>img{
+    border-radius: 5%;
+    scale: 0.8;
+    box-shadow: 0 3px 8px black;
+    margin-left: 10em;
+}
+
+main>ul>li>img:hover{
+    animation-name: animatieee;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    will-change: transform;
+}
+
+a{
+transition: all 1s ease;
+}
+
+a:hover{
+font-size: 20px;
+color: rgb(177, 177, 177);
+}
+
+@keyframes animatieee {
+    0% {scale: 1;}
+    25% {scale: 1.05;}
+    50% {scale: 1;
+        rotate: 2deg;
+    }
+    75% {scale: 1.08;}
+    100% {scale: 1;}
+}
