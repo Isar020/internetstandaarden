@@ -116,6 +116,15 @@ main>h2{
     font-stretch: extra-condensed;
     text-decoration: underline;
 }
+footer>h2{
+        margin-left: 4em;
+        margin-right: 4em;
+        font-family: fantasy;
+        font-size: 22;
+        font-weight: normal;
+        font-stretch: extra-condensed;
+        text-decoration: underline;
+}
 main>ul>li>h3{
     margin-left: 5em;
     margin-right: 5em;
@@ -157,7 +166,7 @@ main>ul>li>img{
     width: 60%
 }
     
-div>img{
+.illustratie {
     border-radius: 5%;
     scale: 0.8;
     box-shadow: 0 3px 8px black;
